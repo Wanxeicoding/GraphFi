@@ -1,11 +1,11 @@
 import { useState } from 'react';
-import { Card } from "../components/ui/card";
-import { Button } from "../components/ui/button";
-import { toast } from "../components/ui/sonner";
-import TokenomicsForm from '../components/TokenomicsForm';
-import ChartDisplay from '../components/ChartDisplay';
-import { TokenomicsEntry } from '../types/tokenomics';
-import Header from '../components/Header';
+import { Card } from "../../components/ui/card";
+import { Button } from "../../components/ui/button";
+import { toast } from "../../components/ui/sonner";
+import TokenomicsForm from '../../components/TokenomicsForm';
+import ChartDisplay from '../../components/ChartDisplay';
+import { TokenomicsEntry } from '../../types/tokenomics';
+import Header from '../../components/Header';
 
 const INITIAL_ENTRIES: TokenomicsEntry[] = [
   { id: "1", label: "Private Investors", percentage: 20, color: "#8B5CF6" },
